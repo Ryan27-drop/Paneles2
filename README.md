@@ -1,16 +1,16 @@
-# Optimización de Paneles Solares ☀️
+Optimización de Paneles Solares Ryan C, Jorge F, Matías H
 
 Este proyecto tiene como objetivo minimizar el costo de instalación de paneles solares en tres casas, utilizando un modelo de Programación Lineal Entera.
 
 ---
 
-## 🎯 Objetivo del Modelo
+Función objetivo del Modelo
 
 Minimizar el costo total de inversión en paneles solares, garantizando que cada casa cubra su demanda energética y respete las limitaciones de espacio disponible en el techo.
 
 ---
 
-## 🔢 Variables de Decisión
+Variables de Decisión
 
 Para cada casa (i = 1, 2, 3):
 
@@ -22,7 +22,7 @@ Todas las variables son enteras y no negativas.
 
 ---
 
-## 💰 Función Objetivo
+Función Objetivo (Matemáticamente)
 
 Minimizar el costo total:
 
@@ -35,7 +35,7 @@ Donde:
 
 ---
 
-## ⚡ Restricciones
+Restricciones
 
 ### 1. Restricciones de Energía
 
@@ -50,7 +50,7 @@ Donde:
 
 ---
 
-### 2. Restricciones de Área
+2. Restricciones de Área
 
 El área total ocupada por los paneles no debe exceder el área del techo:
 
@@ -64,7 +64,7 @@ Ai, Bi, Ci ∈ ℤ⁺ (valores enteros no negativos)
 
 ---
 
-## 🧠 Tipo de Modelo
+Tipo de Modelo
 
 - Programación Lineal Entera (PLE)
 - Problema de minimización
@@ -72,7 +72,7 @@ Ai, Bi, Ci ∈ ℤ⁺ (valores enteros no negativos)
 
 ---
 
-## 💻 Implementación
+Implementación
 
 El modelo fue implementado en Python utilizando:
 
@@ -82,9 +82,10 @@ El modelo fue implementado en Python utilizando:
 
 ---
 
-## 🚀 Funcionalidades
+Funcionalidades
 
-- Permite modificar:
+El modelo creado permite modificar ciertos parametros entre los cuales están:
+
   - Consumo mensual
   - Área del techo
   - Horas de sol
@@ -94,6 +95,6 @@ El modelo fue implementado en Python utilizando:
 
 ---
 
-## 📌 Conclusión
+Conclusión
 
 El modelo permite tomar decisiones óptimas sobre la instalación de paneles solares, minimizando costos y asegurando el cumplimiento de la demanda energética bajo restricciones reales.
